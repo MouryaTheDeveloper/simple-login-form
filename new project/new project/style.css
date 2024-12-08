@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+   
+    padding: 0;
+}
+html,body
+{
+    
+height: 100%;
+width:100%;
+
+}
+#main{
+    
+    height: 100%;
+    width: 100%; 
+}
+#mainheader{
+    border-width: 2px;
+    border-color: brown;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    height: 90px;
+    width: 100%;
+    background-color: linear-gradient(skyblue,white);
+}
+.head{
+    font-size: medium;
+    font-family: Arial;
+    margin: 20px;
+    height: auto;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color:2px  solid red ;
+}
+#head1{
+    font-size: larger;
+    color: rgb(11, 2, 25);
+    font-weight: 5px;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   margin-right: 200px;
+    background-color: #fff;
+}
+#header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#page1{
+    height: 92%;
+    width: 100%; 
+}
+#part1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+    height:40%;
+    width:96%;
+    background-color:skyblue;
+    border-radius: 10px;
+    border: 10px solid black;
+}
+.p{
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: solid red ;
+   padding: 5px;
+    height: 200px;
+    width: 500px;
+    margin: 5px 5px;
+}
+#part2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: blue;
+    margin: 5px 20px;
+    height:35%;
+    width:96%;
+    margin-bottom: 50px;
+   background:linear-gradient(rgb(9, 112, 163),#ffffff,#1bbeff);
+    border-radius: 10px;
+    border:10px solid rgb(157, 167, 162);
+}
+.boxs
+{  
+    background-image: cover;
+    height: 185px;
+    width: 165px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(01224, 544, 255) blanchedalmond;
+    margin: 50px 15px;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: -10px;
+}
+
+#army{
+    background-image: cover;
+    height: 185px;
+    width: 165px;
+    /* border: 10px solid rgb(0, 255, 140);
+    border-radius: 50%; */
+    background-color: rgb(245, 238, 238);
+    margin: 50px 15px;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: -10px;
+}
+#army:hover{background-color: blue;
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.FVemcuEdGiJ3lXEKli5iwQHaG2&pid=Api&P=0&h=180);
+    border-color: color-mix(in srgb, blue percentage, red percentage);
+}
+#navy:hover{
+    border-color: red;
+    border-width: 10px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.FVemcuEdGiJ3lXEKli5iwQHaG2&pid=Api&P=0&h=180);
+    cursor: pointer;
+}
